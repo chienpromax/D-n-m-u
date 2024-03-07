@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "dtd/map_2_0.dtd">
+
+<map version="2.0">
+  <mapID target="exe4j.introduction" url="doc/introduction.html"/>
+  <mapID target="exe4j.wizard" url="doc/wizard.html"/>
+  <mapID target="exe4j.service" url="doc/service.html" />
+  <mapID target="exe4j.api" url="doc/api.html" />
+  <mapID target="exe4j.cli" url="doc/cli.html"/>
+  <mapID target="exe4j.ant" url="doc/ant.html"/>
+</map>
+

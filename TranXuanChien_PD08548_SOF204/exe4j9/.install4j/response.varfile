@@ -1,0 +1,5 @@
+# install4j response file for exe4j 9.0
+executeLauncherAction$Boolean=true
+sys.adminRights$Boolean=true
+sys.installationDir=E\:\\hoc\\k\u00EC 4\\sof204-DuAnMau\\TranXuanChien_PD08548_SOF204\\exe4j9
+sys.languageId=en

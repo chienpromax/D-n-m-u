@@ -1,0 +1,4 @@
+﻿1. Chạy Polypro.sql để tạo CSDL Polypro
+2. Đặt mật khẩu sa của SQL Server là songlong
+3. Chạy file Setup (chú ý môi trường JDK1.8+)
+4. Chạy ứng dụng và đăng nhập với tài khoản sẵn có trên form

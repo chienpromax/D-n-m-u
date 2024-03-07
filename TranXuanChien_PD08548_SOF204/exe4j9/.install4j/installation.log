@@ -1,0 +1,718 @@
+[INFO] Logger started at 2023-10-25 09:02:03
+[INFO] Executable name: C:\Users\xuanc\Downloads\Programs\exe4j_windows-x64_9_0.exe
+[INFO] install4j version: @VERSION@ (build @BUILD_NUMBER@)
+[INFO] Properties: 
+-- listing properties --
+java.specification.version=17
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\xuanc\AppData\Local\Temp\e4j...
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=JetBrains s.r.o.
+sun.arch.data.model=64
+install4j.exeDir=C:\Users\xuanc\Downloads\Programs\
+user.variant=
+java.vendor.url=https://openjdk.java.net/
+user.timezone=Asia/Saigon
+swing.bufferPerWindow=false
+java.vm.specification.version=17
+os.name=Windows 10
+user.country=US
+sun.boot.library.path=c:\users\xuanc\appdata\local\temp\e4j...
+sun.java.command=C:\Users\xuanc\Downloads\Programs\exe...
+jdk.debug=release
+sun.cpu.endian=little
+exe4j.unextractedPosition=51413204
+user.home=C:\Users\xuanc
+user.language=en
+jdk.http.auth.tunneling.disabledSchemes=
+java.specification.vendor=Oracle Corporation
+java.version.date=2022-10-18
+java.home=c:\users\xuanc\appdata\local\temp\e4j...
+file.separator=\
+java.vm.compressedOopsMode=32-bit
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+jdk.lang.Process.allowAmbiguousCommands=false
+exe4j.moduleName=C:\Users\xuanc\Downloads\Programs\exe...
+jbr.virtualization.information=No virtualization detected
+exe4j.tempDir=C:\Users\xuanc\AppData\Local\Temp\e4j...
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=17.0.5+8-b762.1
+user.name=xuanc
+path.separator=;
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=Cp1252
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=JBR-17.0.5+8-762.1-nomod
+exe4j.semaphoreName=Local\c:_users_xuanc_downloads_progra...
+install4j.appDir=C:\Users\xuanc\AppData\Local\Temp\
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\xuanc\AppData\Local\Temp\
+java.version=17.0.5
+user.dir=C:\Users\xuanc\AppData\Local\Temp\e4j...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+native.encoding=Cp1252
+java.library.path=c:\users\xuanc\appdata\local\temp\e4j...
+java.vm.info=mixed mode
+java.vendor=JetBrains s.r.o.
+java.vm.version=17.0.5+8-b762.1
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=61.0
+exe4j.launchName=C:\Users\xuanc\Downloads\Programs\exe...
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 165]: Execute action
+       Property linuxPrivilegeRequirement: None
+       Property failIfNotObtainedLinux: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Starting elevated helper
+       Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+       Execute action successful after 783 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 15]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 20]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 20]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 21]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 21]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 22]: Show screen
+       Variable changed: sys.installationDir=E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 75]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: false
+       Response file E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\response.varfile does not exist
+       Execute action successful after 10 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 22]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 26]: Show screen
+[INFO] com.install4j.runtime.beans.actions.misc.CheckRunningProcessesAction [ID 303]: Execute action
+       Property additionalExecutables: null
+       Property closeStrategy: Ask user to manually close
+       Property message: install4j has detected that  exe4j is currently running.
+
+Please close the following processes, then click Retry to continue, or Cancel to exit.
+       Property timeOut: 5000
+       Property allowIgnore: false
+       Property includeLaunchers: true
+       Property rollbackSupported: false
+       Execute action successful after 46 ms
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 309]: Execute action
+       Property installationDirectory: null
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: true
+       Property rollbackSupported: false
+       Property uninstallServices: true
+       checking running processes
+       checking running processes ok
+       previous installation id at E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9: null
+       no previous installation detected, uninstaller was not started
+       finished
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 28]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property validateApplicationId: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-console-l1-1-0.dll; size: 30688 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 25 09:02:02 ICT 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-datetime-l1-1-0.dll; size: 29664 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-debug-l1-1-0.dll; size: 29656 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll; size: 30192 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-file-l1-1-0.dll; size: 33752 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-file-l1-2-0.dll; size: 30168 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-file-l2-1-0.dll; size: 30168 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-handle-l1-1-0.dll; size: 30168 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-heap-l1-1-0.dll; size: 30168 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll; size: 30176 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll; size: 30696 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-localization-l1-2-0.dll; size: 32744 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-memory-l1-1-0.dll; size: 30688 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll; size: 30176 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll; size: 31224 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll; size: 32240 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll; size: 30704 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-profile-l1-1-0.dll; size: 29664 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll; size: 30176 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-string-l1-1-0.dll; size: 30176 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-synch-l1-1-0.dll; size: 32224 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-synch-l1-2-0.dll; size: 30680 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll; size: 31200 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-timezone-l1-1-0.dll; size: 30176 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-core-util-l1-1-0.dll; size: 30168 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-conio-l1-1-0.dll; size: 31192 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-convert-l1-1-0.dll; size: 34272 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-environment-l1-1-0.dll; size: 30696 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll; size: 32224 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-heap-l1-1-0.dll; size: 30680 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-locale-l1-1-0.dll; size: 30680 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-math-l1-1-0.dll; size: 39384 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll; size: 37848 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-private-l1-1-0.dll; size: 82400 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-process-l1-1-0.dll; size: 31192 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll; size: 34784 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll; size: 36312 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-string-l1-1-0.dll; size: 36312 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-time-l1-1-0.dll; size: 32728 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\api-ms-win-crt-utility-l1-1-0.dll; size: 30688 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\attach.dll; size: 30456 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\awt.dll; size: 1498872 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\dt_socket.dll; size: 37120 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\fontmanager.dll; size: 805640 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\freetype.dll; size: 544000 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\instrument.dll; size: 51968 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\j2gss.dll; size: 51960 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\j2pcsc.dll; size: 27384 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\j2pkcs11.dll; size: 79616 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jaas.dll; size: 29432 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jabswitch.exe; size: 46336 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jaccessinspector.exe; size: 107792 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jaccesswalker.exe; size: 71944 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\java.dll; size: 148216 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\java.exe; size: 34552 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\javaaccessbridge.dll; size: 291600 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\javajpeg.dll; size: 179968 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\javaw.exe; size: 34552 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jawt.dll; size: 22264 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jdwp.dll; size: 232184 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jimage.dll; size: 34552 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jli.dll; size: 88304 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jrunscript.exe; size: 24832 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\jsound.dll; size: 62200 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\keytool.exe; size: 24832 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\kinit.exe; size: 24824 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\klist.exe; size: 24824 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\ktab.exe; size: 24824 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\lcms.dll; size: 256248 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\le.dll; size: 36592 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\management.dll; size: 29952 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\management_agent.dll; size: 25360 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\management_ext.dll; size: 37128 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\mlib_image.dll; size: 511232 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\msvcp140.dll; size: 578232 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\net.dll; size: 98040 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\nio.dll; size: 81136 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\prefs.dll; size: 26872 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\rmi.dll; size: 22264 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\rmiregistry.exe; size: 24840 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\server\jvm.dll; size: 12683504 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\splashscreen.dll; size: 219400 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\sspi_bridge.dll; size: 45832 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\sunmscapi.dll; size: 48384 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\ucrtbase.dll; size: 1008568 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\vcruntime140.dll; size: 109760 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\vcruntime140_1.dll; size: 48792 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\verify.dll; size: 56056 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\w2k_lsa_auth.dll; size: 32520 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\windowsaccessbridge-64.dll; size: 73496 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\bin\zip.dll; size: 87800 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\logging.properties; size: 2732 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\management\jmxremote.access; size: 3997 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\management\jmxremote.password.template; size: 5690 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\management\management.properties; size: 14410 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\net.properties; size: 6671 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\security\java.policy; size: 2180 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\security\java.security; size: 58403 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\security\policy\limited\default_local.policy; size: 647 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\security\policy\limited\default_US_export.policy; size: 146 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\security\policy\limited\exempt_local.policy; size: 566 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\security\policy\README.txt; size: 2390 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\security\policy\unlimited\default_local.policy; size: 193 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\security\policy\unlimited\default_US_export.policy; size: 146 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\conf\sound.properties; size: 1210 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\classfile_constants.h; size: 22155 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\jawt.h; size: 12458 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\jdwpTransport.h; size: 8151 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\jni.h; size: 75678 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\jvmti.h; size: 84350 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\jvmticmlr.h; size: 4771 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\sizecalc.h; size: 4518 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\win32\bridge\AccessBridgeCallbacks.h; size: 5518 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\win32\bridge\AccessBridgeCalls.h; size: 36093 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\win32\bridge\AccessBridgePackages.h; size: 77582 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\win32\jawt_md.h; size: 1895 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\include\win32\jni_md.h; size: 1580 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\ADDITIONAL_LICENSE_INFO; size: 2114 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\aes.md; size: 1444 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\asm.md; size: 1584 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\ASSEMBLY_EXCEPTION; size: 1522 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\c-libutl.md; size: 1556 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\cldr.md; size: 9130 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\icu.md; size: 11086 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\LICENSE; size: 19274 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\public_suffix.md; size: 17785 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\unicode.md; size: 2384 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\wepoll.md; size: 1454 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.base\zlib.md; size: 1011 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.compiler\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.compiler\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.compiler\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.datatransfer\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.datatransfer\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.datatransfer\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\colorimaging.md; size: 167 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\freetype.md; size: 28780 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\giflib.md; size: 1288 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\harfbuzz.md; size: 2886 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\jpeg.md; size: 3475 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\lcms.md; size: 1178 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\libpng.md; size: 5398 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.desktop\mesa3d.md; size: 5732 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.instrument\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.instrument\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.instrument\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.logging\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.logging\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.logging\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.management\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.management\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.management\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.management.rmi\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.management.rmi\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.management.rmi\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.naming\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.naming\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.naming\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.net.http\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.net.http\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.net.http\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.prefs\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.prefs\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.prefs\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.rmi\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.rmi\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.rmi\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.scripting\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.scripting\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.scripting\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.se\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.se\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.se\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.security.jgss\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.security.jgss\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.security.jgss\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.security.sasl\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.security.sasl\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.security.sasl\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.smartcardio\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.smartcardio\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.smartcardio\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.sql\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.sql\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.sql\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.sql.rowset\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.sql.rowset\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.sql.rowset\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.transaction.xa\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.transaction.xa\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.transaction.xa\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml\bcel.md; size: 11195 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml\dom.md; size: 3028 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml\jcup.md; size: 1158 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml\xalan.md; size: 13494 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml\xerces.md; size: 11852 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml.crypto\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml.crypto\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml.crypto\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\java.xml.crypto\santuario.md; size: 11436 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.accessibility\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.accessibility\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.accessibility\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.attach\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.attach\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.attach\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.charsets\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.charsets\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.charsets\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.cryptoki\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.cryptoki\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.cryptoki\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.cryptoki\pkcs11cryptotoken.md; size: 3923 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.cryptoki\pkcs11wrapper.md; size: 2131 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.ec\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.ec\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.ec\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.mscapi\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.mscapi\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.crypto.mscapi\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.dynalink\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.dynalink\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.dynalink\dynalink.md; size: 1502 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.dynalink\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.httpserver\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.httpserver\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.httpserver\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.ed\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.ed\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.ed\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.jvmstat\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.jvmstat\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.jvmstat\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.le\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.le\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.le\jline.md; size: 1579 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.le\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.vm.ci\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.vm.ci\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.internal.vm.ci\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.jdwp.agent\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.jdwp.agent\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.jdwp.agent\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.localedata\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.localedata\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.localedata\cldr.md; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.localedata\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.localedata\thaidict.md; size: 1346 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.management\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.management\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.management\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.management.agent\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.management.agent\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.management.agent\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.naming.dns\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.naming.dns\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.naming.dns\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.naming.rmi\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.naming.rmi\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.naming.rmi\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.net\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.net\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.net\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.sctp\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.sctp\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.sctp\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.security.auth\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.security.auth\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.security.auth\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.security.jgss\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.security.jgss\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.security.jgss\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.unsupported\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.unsupported\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.unsupported\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.unsupported.desktop\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.unsupported.desktop\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.unsupported.desktop\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.xml.dom\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.xml.dom\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.xml.dom\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.zipfs\ADDITIONAL_LICENSE_INFO; size: 48 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.zipfs\ASSEMBLY_EXCEPTION; size: 43 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\legal\jdk.zipfs\LICENSE; size: 32 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\classlist; size: 72989 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fontconfig.bfc; size: 5812 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fontconfig.properties.src; size: 14672 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSans-Bold.ttf; size: 194488 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSans.ttf; size: 190776 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSansMono.ttf; size: 119380 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSansMonoDotted.ttf; size: 117696 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSansMonoSlashed.ttf; size: 117744 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSerif-Bold.ttf; size: 185228 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSerif-BoldItalic.ttf; size: 190304 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSerif-Italic.ttf; size: 177560 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\DroidSerif-Regular.ttf; size: 172916 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\FiraCode-Bold.ttf; size: 324328 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\FiraCode-Light.ttf; size: 285000 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\FiraCode-Medium.ttf; size: 294960 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\FiraCode-Regular.ttf; size: 299152 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\FiraCode-Retina.ttf; size: 295252 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\font.conf; size: 584 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\fonts.dir; size: 36170 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\Inconsolata.ttf; size: 22416 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\Inter-Italic.otf; size: 271400 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\Inter-Regular.otf; size: 258992 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\Inter-SemiBold.otf; size: 270760 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\Inter-SemiBoldItalic.otf; size: 279536 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-Bold.ttf; size: 210128 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-BoldItalic.ttf; size: 212756 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-ExtraBold.ttf; size: 210688 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-ExtraBoldItalic.ttf; size: 214464 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-ExtraLight.ttf; size: 204132 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-ExtraLightItalic.ttf; size: 209508 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-Italic.ttf; size: 211180 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-Light.ttf; size: 205672 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-LightItalic.ttf; size: 211428 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-Medium.ttf; size: 204140 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-MediumItalic.ttf; size: 211020 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-Regular.ttf; size: 203952 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-Thin.ttf; size: 202076 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\JetBrainsMono-ThinItalic.ttf; size: 206184 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\Roboto-Light.ttf; size: 140276 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\Roboto-Thin.ttf; size: 130044 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\SourceCodePro-Bold.ttf; size: 197004 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\SourceCodePro-BoldIt.ttf; size: 162976 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\SourceCodePro-It.ttf; size: 163624 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\fonts\SourceCodePro-Regular.ttf; size: 197644 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\jawt.lib; size: 1682 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\jrt-fs.jar; size: 110513 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\jvm.cfg; size: 29 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\jvm.lib; size: 1043908 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\modules; size: 98377613 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 25 09:02:03 ICT 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\psfont.properties.ja; size: 3793 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\psfontj2d.properties; size: 11390 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\security\blocked.certs; size: 2527 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\security\cacerts; size: 102206 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\security\default.policy; size: 10735 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\security\public_suffix_list.dat; size: 234080 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\tzdb.dat; size: 102670 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\lib\tzmappings; size: 22143 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\jre\release; size: 751 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4jdel.exe; size: 95936 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 17 19:29:26 ICT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4jinst.dll; size: 232128 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\README.txt; size: 1607 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 17 19:29:26 ICT 2023, mode: 644, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\bin\ant.jar; size: 27316 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\bin\exe4j.exe; size: 430272 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 17 19:29:26 ICT 2023, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\bin\exe4j.jar; size: 2004048 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 17 19:29:26 ICT 2023, mode: 644, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\bin\exe4jc.exe; size: 390336 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 17 19:29:26 ICT 2023, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\bin\options\base.options; size: 455 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 17 19:29:26 ICT 2023, mode: 644, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\bin\options\mac.options; size: 161 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\bin\options\win.options; size: 170 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\config\config_template.xml; size: 72 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\config\help.xml; size: 514 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\config\template.exe4j; size: 203 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\config\transforms\transform_1.replacements; size: 558 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\config\transforms\transform_1.xsl; size: 599 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\config\transforms\transform_2.xsl; size: 951 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\config\transforms\transform_3.xsl; size: 560 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\cli\HelloCli.class; size: 528 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\cli\HelloCli.java; size: 184 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\cli\hello.exe; size: 499712 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\cli\hello.exe4j; size: 411 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\gui\HelloGui.class; size: 5344 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\gui\HelloGui.java; size: 3143 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\gui\hello.bmp; size: 276054 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\gui\hello.exe; size: 610304 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\gui\hello.exe4j; size: 939 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\gui\hello.ico; size: 40280 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\service\ServiceDemo$ShutdownThread.class; size: 1221 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\service\ServiceDemo.class; size: 2217 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\service\ServiceDemo.java; size: 2165 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\demo\service\service.exe4j; size: 370 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\doc\help.pdf; size: 148910 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\exe4jlib.jar; size: 62326 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\allclasses-index.html; size: 5077 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\allpackages-index.html; size: 2590 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\com\exe4j\Controller.ConnectionException.html; size: 10151 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\com\exe4j\Controller.StartupListener.html; size: 7555 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\com\exe4j\Controller.html; size: 14203 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\com\exe4j\package-summary.html; size: 5311 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\com\exe4j\package-tree.html; size: 4038 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\element-list; size: 10 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\help-doc.html; size: 8703 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\index-all.html; size: 5854 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\index.html; size: 918 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\jquery-ui.overrides.css; size: 1461 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\legal\ADDITIONAL_LICENSE_INFO; size: 2114 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\legal\ASSEMBLY_EXCEPTION; size: 1522 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\legal\LICENSE; size: 19274 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\legal\jquery.md; size: 2934 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\legal\jqueryUI.md; size: 1870 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\member-search-index.js; size: 475 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\module-search-index.js; size: 45 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\overview-tree.html; size: 4094 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\package-search-index.js; size: 113 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\resources\glass.png; size: 499 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\resources\x.png; size: 394 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-bg_glass_55_fbf9ee_1x400.png; size: 335 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-bg_glass_65_dadada_1x400.png; size: 262 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-bg_glass_75_dadada_1x400.png; size: 262 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-bg_glass_75_e6e6e6_1x400.png; size: 262 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-bg_glass_95_fef1ec_1x400.png; size: 332 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-bg_highlight-soft_75_cccccc_1x100.png; size: 280 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-icons_222222_256x240.png; size: 6922 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-icons_2e83ff_256x240.png; size: 4549 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-icons_454545_256x240.png; size: 6992 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-icons_888888_256x240.png; size: 6999 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\images\ui-icons_cd0a0a_256x240.png; size: 4549 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\jquery-3.5.1.min.js; size: 89476 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\jquery-ui.min.css; size: 17416 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\jquery-ui.min.js; size: 32162 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script-dir\jquery-ui.structure.min.css; size: 1787 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\script.js; size: 5027 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\search.js; size: 13759 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\serialized-form.html; size: 3138 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\stylesheet.css; size: 18648 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\tag-search-index.js; size: 99 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\javadoc\type-search-index.js; size: 246 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\animal-sniffer-annotations-1.17.jar; size: 3448 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\asn-one-0.6.0.jar; size: 67005 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\bcpkix-jdk18on-1.72.jar; size: 1009047 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\bcprov-jdk18on-1.72.jar; size: 11274121 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\bcutil-jdk18on-1.72.jar; size: 672170 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\checker-qual-2.5.2.jar; size: 193322 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\commons-compress-1.21.jar; size: 1018316 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\commons-math-2.2.jar; size: 988514 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\eddsa-0.3.0.jar; size: 63292 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\error_prone_annotations-2.2.0.jar; size: 13694 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\failureaccess-1.0.1.jar; size: 4617 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\flatlaf-2.5.jar; size: 729660 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\flatlaf-extras-2.5.jar; size: 114719 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\flatlaf-jide-oss-2.5.jar; size: 40748 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\flatlaf-windows-x86.dll; size: 8704 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\flatlaf-windows-x86_64.dll; size: 9728 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\guava-27.1-jre.jar; size: 2746671 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\j2objc-annotations-1.1.jar; size: 8782 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\jclasslib-data-6.0.2.jar; size: 367887 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\jdom2-2.0.6.1.jar; size: 327806 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\jide-3.7.10.jar; size: 6044719 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\jool-0.9.14.jar; size: 541842 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\jzlib-1.1.3.jar; size: 71976 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\kotlin-reflect-1.7.10.jar; size: 3119699 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\kotlin-stdlib-1.7.10.jar; size: 1524620 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\kotlin-stdlib-common-1.7.10.jar; size: 198936 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\kotlin-stdlib-jdk7-1.7.10.jar; size: 23868 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\kotlin-stdlib-jdk8-1.7.10.jar; size: 19787 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\miglayout-core-4.2.jar; size: 66663 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\miglayout-swing-4.2.jar; size: 14580 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\slf4j-api-1.7.36.jar; size: 41125 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\slf4j-jdk14-1.7.28.jar; size: 8510 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\sshj-0.34.1.jar; size: 555881 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\lib\svgSalamander-1.1.3.jar; size: 320460 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\license.html; size: 12606 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\license.txt; size: 11406 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\i4jdel.exe; size: 95936 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\i4jdel.exe.arm64; size: 154816 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\manifest; size: 1256 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\manifest.64; size: 1260 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\manifest.arm64; size: 1258 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\manifest.dpi; size: 1508 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\manifest.dpi.64; size: 1513 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\manifest.dpi.arm64; size: 1511 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\messages\languages; size: 31 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\messages\messages_de.utf8; size: 2448 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\messages\messages_en.utf8; size: 2151 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\messages\messages_fr.utf8; size: 2249 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\winln.bin; size: 270336 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\winln.bin.64; size: 335872 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\winln.bin.arm64; size: 389632 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\winsvc.bin; size: 278016 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\winsvc.bin.64; size: 345088 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\resource\winsvc.bin.arm64; size: 398848 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\uninstall.exe; size: 811200 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 17 19:29:26 ICT 2023, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\inst_jre.cfg; size: 65 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 25 09:02:32 ICT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\pref_jre.cfg; size: 68 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 25 09:02:32 ICT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4jruntime.jar; size: 2070238 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 25 09:02:32 ICT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\MessagesDefault; size: 34826 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4jparams.conf; size: 69958 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\stats.properties; size: 979 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\user.jar; size: 7581 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\user\flatlaf.jar; size: 758100 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4j_extf_0_1kavuxq.utf8; size: 34826 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4j_extf_1_1kavuxq.html; size: 12606 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4j_extf_2_1kavuxq_pz5z9g.ico; size: 34348 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4j_extf_3_1kavuxq_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4j_extf_3_1kavuxq_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4j_extf_3_1kavuxq_18gg8kx@2x_dark.png; size: 15837 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\i4j_extf_3_1kavuxq_18gg8kx_dark.png; size: 8891 bytes; exists: false
+       Install file: E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\.install4j\installer.ico; size: 15749 bytes; exists: false
+       Execute action successful after 4787 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 29]: Execute action
+       Property categories: Application
+       Property linkDirectory: /usr/local/bin
+       Property programGroupEntryConfigs: [ProgramGroupFileConfig{target=doc\help.pdf, arguments='', runAsAdministrator=false}, ProgramGroupFileConfig{target=doc\index.html, arguments='', runAsAdministrator=false}]
+       Property programGroupName: exe4j
+       Property uninstallerMenuName: exe4j Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: false
+       Property allUsers: false
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.programGroupName=exe4j[class java.lang.String]
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: C:\Users\xuanc\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\exe4j\exe4j Wizard.lnk; size: 1373 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 25 09:02:32 ICT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Users\xuanc\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\exe4j\Documentation\exe4j Printable Manual.lnk; size: 1216 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 25 09:02:32 ICT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 112 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 30]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: exe4j 9.0
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 26 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 31]: Execute action
+       Property description: exe4j project files
+       Property extension: exe4j
+       Property launcherId: 2
+       Property persistentProperties: {}
+       Property unixIconFile: null
+       Property unixMimeType: 
+       Property winAdditionalParameters: null
+       Property windowsIconFile: i4j_extf_2_1kavuxq_pz5z9g.ico
+       Property restartFinder: false
+       Property rollbackSupported: true
+       Property selected: true
+       Property unix: false
+       Property windows: true
+       using internal name exe4j
+       Execute action successful after 21 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 217]: Execute action
+       Property accessMode: Grant access
+       Property files: [demo]
+       Property group: Authenticated users
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: false
+       Property read: false
+       Property rollbackSupported: false
+       Property write: false
+       Execute action successful after 8 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 26]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 32]: Show screen
+       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.finish.ExecuteLauncherAction [ID 42]: Execute action
+       Property arguments: null
+       Property launcherId: 2
+       Property rollbackSupported: false
+       Launching E:\hoc\kì 4\sof204-DuAnMau\TranXuanChien_PD08548_SOF204\exe4j9\bin\exe4j.exe
+       execute directly
+       Execute action successful after 514 ms
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 32]: command: finish
+       cleaning up
+       Finished at 2023-10-25 09:02:33
