@@ -1,3 +1,0 @@
---add-exports java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED
---add-opens java.desktop/sun.awt.windows=ALL-UNNAMED
---add-opens java.desktop/java.awt=ALL-UNNAMED
